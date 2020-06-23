@@ -24,6 +24,7 @@ def call_swapi(command_type):
 
     people_starships_dict = {}
     # Adds api call to db depending on api call type. currently on people & starship calls are supported
+    # TODO have to add a way to check that there has been a change from the last time it was called before executing
     if command_type == 'people':
         for each in results:
             '''
