@@ -29,3 +29,6 @@ For example on the resulting database if you were to search for all the starship
     join starships
     on people_starships_relationships.starship_reference = starships.url
     where people.name = 'Luke Skywalker';
+    
+### Known Issues.
+Currently there is no check to see if a similar entry is in the db so it will just keep adding the same ones over and over again if you keep running the command. 
