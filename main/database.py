@@ -67,7 +67,10 @@ def create_table(conn):
     except Error as e:
         print(e)
 
-
+"""
+TODO: for all three add_foo functions, add a check to see if a similar entry exists and
+return if it does. 
+"""
 def add_people(person_data, conn):
     """
     add single row to people table
